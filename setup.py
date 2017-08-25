@@ -21,4 +21,7 @@ setup(
     long_description=long_description,
     url='https://github.com/IBM-Bluemix/python-hello-world-flask',
     license='Apache-2.0'
-)
+    dependency_links = [
+        "http://dev.mysql.com/get/Downloads/Connector-Python/mysql-connector-python-2.1.4.zip"
+        ]
+    )
